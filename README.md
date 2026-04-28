@@ -7,7 +7,7 @@
 
 **NearFix** is a hyperlocal services marketplace that connects users with trusted service providers — electricians, plumbers, tutors, beauticians, and more — in their neighbourhood. Built with a modern full-stack TypeScript architecture, NearFix features real-time location-aware discovery, role-based dashboards, a complete booking flow, and an admin panel for platform management.
 
-🌐 **Live:** [nearfix-fezq.onrender.com](https://nearfix-fezq.onrender.com)
+🌐 **Live:** [[nearfix-agra.onrender.com](https://nearfix-agra.onrender.com/)
 
 ---
 
