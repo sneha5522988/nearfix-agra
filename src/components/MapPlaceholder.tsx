@@ -134,7 +134,7 @@ export default function MapPlaceholder() {
           <div className="w-2 h-2 rounded-full" style={{ background: '#10B981' }} />
           <span className="text-sm font-semibold text-white">6 providers found within 3km</span>
         </div>
-        <p className="text-xs mt-0.5" style={{ color: 'rgba(255,255,255,0.4)' }}>Bengaluru, Karnataka</p>
+        <p className="text-xs mt-0.5" style={{ color: 'rgba(255,255,255,0.4)' }}>Agra, Uttar Pradesh</p>
       </motion.div>
 
       {/* Locate me button */}

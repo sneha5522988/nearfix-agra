@@ -143,7 +143,7 @@ export default function ServicesPage() {
   return (
     <div style={{ background: '#0D0D0D', minHeight: '100vh' }}>
       <title>Browse Services — NearFix</title>
-      <meta name="description" content="Find trusted local service providers near you — electricians, plumbers, tutors, beauticians and more in Bengaluru." />
+      <meta name="description" content="Find trusted local service providers near you — electricians, plumbers, tutors, beauticians and more in Agra." />
 
       <div className="pt-24 pb-32 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 

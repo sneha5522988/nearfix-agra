@@ -20,7 +20,7 @@ describe('nearfix-location-storage', () => {
     const written = writeStoredLocation({
       lat: 12.97,
       lng: 77.59,
-      city: 'Bengaluru',
+      city: 'Agra',
       locality: 'Koramangala',
       source: 'gps',
     });
@@ -99,7 +99,7 @@ describe('nearfix-location-storage', () => {
     const snap = writeStoredLocation({
       lat: 1,
       lng: 2,
-      city: 'Bengaluru',
+      city: 'Agra',
       locality: 'Indiranagar',
       source: 'gps',
     });

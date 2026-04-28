@@ -75,7 +75,7 @@ export function discoveryLabelFromSnapshot(snapshot: NearFixLocationSnapshot): s
   const loc = snapshot.locality.trim();
   const city = snapshot.city.trim();
   if (loc && city && loc.toLowerCase() !== city.toLowerCase()) return loc;
-  return loc || city || 'Bengaluru';
+  return loc || city || 'Agra';
 }
 
 export function getNearFixLocationRequestHeaders(): Record<string, string> {

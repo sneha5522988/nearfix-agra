@@ -268,25 +268,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Headline */}
             <div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-6"
-                style={{
-                  background: 'rgba(255,107,0,0.1)',
-                  border: '1px solid rgba(255,107,0,0.25)',
-                  color: '#FF6B00',
-                }}
-              >
-                <motion.span
-                  className="w-1.5 h-1.5 rounded-full"
-                  style={{ background: '#FF6B00' }}
-                  animate={{ opacity: [1, 0.3, 1] }}
-                  transition={{ duration: 1.5, repeat: Infinity }}
-                />
-                Now live in 50+ Indian cities
-              </motion.div>
+
 
               <motion.h1
                 initial={{ opacity: 0, y: 24 }}

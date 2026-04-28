@@ -16,7 +16,7 @@ const RESIDENT_STEPS = [
     description:
       'Enter your service need and location. Browse verified providers filtered by rating, distance, availability, and price — all in real time.',
     color: '#FF6B00',
-    detail: 'Over 200+ service categories across Bengaluru',
+    detail: 'Over 200+ service categories across Agra',
   },
   {
     number: '02',
@@ -140,7 +140,7 @@ const FAQS = [
   },
   {
     q: 'Is NearFix available outside Bengaluru?',
-    a: 'We\'re currently live in Bengaluru and expanding to Mumbai, Hyderabad, and Pune in Q3 2026. Join the waitlist to be notified.',
+    a: 'We\'re currently live in Agra and expanding to Mumbai, Hyderabad, and Pune in Q3 2026. Join the waitlist to be notified.',
   },
   {
     q: 'How do I become a provider on NearFix?',
@@ -524,7 +524,7 @@ export default function HowItWorksPage() {
             Ready to get started?
           </h2>
           <p className="text-sm mb-8 max-w-md mx-auto" style={{ color: 'rgba(255,255,255,0.5)' }}>
-            Join thousands of residents in Bengaluru who trust NearFix for every home service need.
+            Join thousands of residents in Agra who trust NearFix for every home service need.
           </p>
           <div className="flex items-center justify-center gap-3 flex-wrap">
             <Link

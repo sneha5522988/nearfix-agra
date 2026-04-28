@@ -7,19 +7,19 @@ describe('nearfix-location-resolve', () => {
     const { city, locality } = labelsFromNominatimAddress({
       neighbourhood: 'Koramangala 5th Block',
       suburb: 'Koramangala',
-      city: 'Bengaluru',
-      state: 'Karnataka',
+      city: 'Agra',
+      state: 'Uttar Pradesh',
       country: 'India',
     });
 
     expect(locality).toBe('Koramangala 5th Block');
-    expect(city).toBe('Bengaluru');
+    expect(city).toBe('Agra');
   });
 
   it('falls back when granular keys are missing', () => {
     const { city, locality } = labelsFromNominatimAddress({
       town: 'Mysuru',
-      state: 'Karnataka',
+      state: 'Uttar Pradesh',
     });
 
     expect(city).toBe('Mysuru');
