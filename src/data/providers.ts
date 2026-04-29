@@ -121,7 +121,7 @@ export const providers: Provider[] = [
 
   makeProvider({ id: 'arun-mehta', name: 'Arun Mehta', category: 'ac-repair', rating: 4.8, reviews: 98, availability: 'tomorrow', location: 'Shahganj, Agra', distance: '4.2 km', completedJobs: 234, mapX: 78, mapY: 38 }),
   makeProvider({ id: 'nitin-bose', name: 'Nitin Bose', category: 'ac-repair', rating: 4.7, reviews: 81, availability: 'today', location: 'Rakabganj, Agra', distance: '3.3 km', completedJobs: 197, mapX: 72, mapY: 31 }),
-  makeProvider({ id: 'salman-qureshi', name: 'Salman Qureshi', category: 'ac-repair', rating: 4.5, reviews: 69, availability: 'now', location: 'Trans Yamuna Colony, Agra', distance: '5.1 km', completedJobs: 143, mapX: 82, mapY: 57 }),
+  makeProvider({ id: 'salman-qureshi', name: 'Salman Qureshi', category: 'ac-repair', rating: 4.5, reviews: 69, availability: 'now', location: 'Sikandrabad, Agra', distance: '5.1 km', completedJobs: 143, mapX: 82, mapY: 57 }),
 
   makeProvider({ id: 'deepak-jha', name: 'Deepak Jha', category: 'pest-control', rating: 4.6, reviews: 72, availability: 'today', location: 'Fatehabad Road, Agra', distance: '4.4 km', completedJobs: 176, mapX: 58, mapY: 18 }),
   makeProvider({ id: 'omkar-patil', name: 'Omkar Patil', category: 'pest-control', rating: 4.7, reviews: 64, availability: 'now', location: 'Lohamandi, Agra', distance: '3.6 km', completedJobs: 154, mapX: 46, mapY: 22 }),
