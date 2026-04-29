@@ -256,7 +256,7 @@ export default function ProviderRegistrationPage() {
                   <label className="text-sm text-white/70">Service area</label>
                   <Input
                     className={fieldClasses}
-                    placeholder="Example: Koramangala, HSR Layout, Indiranagar"
+                    placeholder="Example: Tajganj, Kamla Nagar, Sanjay Place"
                     {...form.register('serviceArea')}
                   />
                   <p className="text-xs text-red-300">{form.formState.errors.serviceArea?.message}</p>

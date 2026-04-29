@@ -21,7 +21,7 @@ describe('nearfix-location-storage', () => {
       lat: 12.97,
       lng: 77.59,
       city: 'Agra',
-      locality: 'Koramangala',
+      locality: 'Tajganj',
       source: 'gps',
     });
 
@@ -100,9 +100,9 @@ describe('nearfix-location-storage', () => {
       lat: 1,
       lng: 2,
       city: 'Agra',
-      locality: 'Indiranagar',
+      locality: 'Sanjay Place',
       source: 'gps',
     });
-    expect(discoveryLabelFromSnapshot(snap)).toBe('Indiranagar');
+    expect(discoveryLabelFromSnapshot(snap)).toBe('Sanjay Place');
   });
 });

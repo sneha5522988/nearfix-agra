@@ -223,7 +223,7 @@ export default function ResidentDashboard() {
     name: user?.fullName || 'Arjun Sharma',
     phone: '+91 98765 43210',
     email: user?.primaryEmailAddress?.emailAddress || 'arjun.sharma@gmail.com',
-    address: 'Flat 4B, Prestige Towers, Koramangala, Agra 282001',
+    address: 'Flat 4B, Prestige Towers, Tajganj, Agra 282001',
     language: 'English, Hindi',
   });
 
